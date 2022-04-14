@@ -1,3 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --almostclear: #C7D1DB; /*rgb(199, 209, 219)*/
+    --lightdark: #848484; /*rgb(132, 132, 132)*/
+    --meddark: #B0C0DA; /*rgb(176, 192, 218)*/
+    --beauty: #E96A67; /*rgb(233, 106, 103)*/
+    --fire: #C72B3B; /*rbg(199, 43, 59)*/
+    --dark: #1E1108; /*rgb(30, 17, 8)*/
+}
 body {
-    background-color: blueviolet;
+    background-color: whitesmoke;
 }
