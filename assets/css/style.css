@@ -64,7 +64,22 @@ h1 {
 .aboutme_container {
     display: flex;
 }
+.profile {
+    position: relative;
+    top: 20px;
+}
+.my_memoji {
+    position: absolute;
+    width: 362px;
+    z-index: 10000;
+    left: 90px;
 
+}
+.profilebkg {
+    position: relative;
+    width: 500px;
+    left: 30px;
+}
 
 
 
