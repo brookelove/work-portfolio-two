@@ -61,10 +61,23 @@ h1 {
 /* subtitle sentence ends */
 
 /* about me section starts ============================================== */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width:50%;
+}
 .aboutme_container {
     display: flex;
 }
-/* my memoji and background profile photo */
+/* my memoji and background profile photo starts */
+.sub_title {
+    font-size: 20px;
+    padding-left: 238px;
+}
 .profile {
     position: relative;
     top: 20px;
@@ -74,18 +87,24 @@ h1 {
     width: 362px;
     z-index: 10000;
     left: 90px;
-
 }
 .profilebkg {
     position: relative;
     width: 500px;
     left: 30px;
 }
+ /* my memoji and background profile photo ends */
 /* icon image of the responsive webdesign */
+/* overall text area */
+.about_text {
+    position: relative;
+    top: 30px;
+    text-align: justify;
+}
+/* icon start */
 .response_web {
     width: 60px;
 }
-
 
 
 
