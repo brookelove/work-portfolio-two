@@ -14,3 +14,63 @@
 body {
     background-color: var(--background);
 }
+header {
+    display: flex;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: inline;
+    justify-content: flex-end;
+    overflow: hidden;
+    padding-right: 20px;
+}
+li {
+    flex-direction: row;
+    float: right;
+    text-align: center;
+    list-style-type: none;
+}
+a {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+    body {
+      background: #772014;
+    }
+  }
+  
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    body{
+      background-color: #bb8588;
+    }
+  }
+  
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+    body {
+      background-color: #8ac4ff;
+    }
+  }
