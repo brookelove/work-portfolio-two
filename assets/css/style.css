@@ -23,7 +23,7 @@ header {
     align-items: center;
     padding: 30px;
     justify-content: space-between;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 .nav__title {
     font-weight: 700;
@@ -76,7 +76,7 @@ h1 {
 }
 /* my memoji and background profile photo starts */
 .sub_title {
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 238px;
 }
 .profile {
@@ -102,7 +102,7 @@ h1 {
     top: 30px;
     text-align: justify;
 }
-/* skilla and tools section */
+/* skilla and tools section ================================================*/
 .skills_container {
     margin-bottom: 150px;
 }
@@ -110,7 +110,22 @@ h1 {
     width: 100%;
     text-align: center;
 } */
-/* icon start */
+.section_title {
+    font-size: 30px;
+}
+/* icon start======================== */
+/* grid setup */
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+}
+.grid_item {
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+    /* images */
 .response_web {
     width: 60px;
 }
