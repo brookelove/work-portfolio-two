@@ -64,6 +64,7 @@ h1 {
 .aboutme_container {
     display: flex;
 }
+/* my memoji and background profile photo */
 .profile {
     position: relative;
     top: 20px;
@@ -80,7 +81,10 @@ h1 {
     width: 500px;
     left: 30px;
 }
-
+/* icon image of the responsive webdesign */
+.response_web {
+    width: 60px;
+}
 
 
 
