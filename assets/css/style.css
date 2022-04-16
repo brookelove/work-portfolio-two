@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
@@ -14,30 +15,34 @@
 body {
     background-color: var(--background);
 }
+/* header and navigation bar */
 header {
     display: flex;
-}
-nav {
-    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
     justify-content: space-between;
 }
-ul {
-    display: inline;
-    justify-content: flex-end;
-    overflow: hidden;
-    padding-right: 20px;
+.nav_list {
+    list-style: none;
 }
 li {
-    flex-direction: row;
-    float: right;
-    text-align: center;
-    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
 }
+li a {
+    transition: all 0.3s ease 0s;
+    list-style: none;
+}
+/* add a hover affect to the page */
 a {
-    display: block;
+    text-decoration: none;
 }
-
-
+/* header sentence */
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
 
 
 
