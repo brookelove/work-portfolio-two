@@ -145,9 +145,72 @@ h1 {
     left: 1300px;
     font-size: 40px;
 }
-
-
-
+/* desktops on the left */
+.desktop-R {
+    position: relative;
+    width: 480px;
+    left: 800px;
+}
+.desktop-website-R {
+    position: relative;
+    width: 450px;
+    left: 333px;
+    bottom: 230px;
+}
+/* buttons on the left */
+.button-left {
+    position: relative;
+    left: 80px;
+    bottom: 280px;
+    font-size: 15px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.text-left {
+    position: relative;
+    bottom: 400px;
+    text-align: justify;
+    padding-left: 80px;
+    inline-size: 500px;
+}
+.project-title {
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+/* laptop on the right */
+.laptop-L {
+    position: relative;
+    width: 570px;
+    bottom: 180px;
+}
+.laptop-website-L {
+    position: relative;
+    height: 230px;
+    width: 370px;
+    bottom: 271px;
+    right: 460px;
+}
+.text-right {
+    position: relative;
+    bottom: 450px;
+    text-align: justify;
+    inline-size: 500px;
+    left: 800px;
+}
+.button-right {
+    position: relative;
+    left: 900px;
+    bottom: 400px;
+    font-size: 15px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.weather-dashboard {
+    position: relative;
+    width: 450px;
+    left: 333px;
+    bottom: 245px;
+}
 
 
 
