@@ -15,6 +15,7 @@
 body {
     background-color: var(--background);
     font-family: 'Archivo', sans-serif;
+    margin: 0;
 }
 /* header and navigation bar begins ==========================================*/
 header {
@@ -27,7 +28,7 @@ header {
 }
 .nav__title {
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 .nav__list {
     list-style: none;
@@ -35,8 +36,8 @@ header {
 /* sticky navigation css */
 .nav.sticky {
     position: fixed;
-    top: 0;
-    left: 900px;
+    right: 40px;
+    padding: 20px;
 }
 li {
     text-transform: lowercase;
@@ -213,11 +214,53 @@ h1 {
 }
 /* work section ends ================================================================== */
 /* footer begins================================================== */
+.contact {
+    margin: 0;
+}
+.contact_me {
+    font-size: 40px;
+    bottom: 400px;
+    left: 60px;
+}
+.reach_out {
+    position: relative;
+    bottom: 390px;
+    font-size: 20px;
+    left: 60px;
+}
+.contact-subtext {
+    position: relative;
+    font-size: 15px;
+    bottom: 380px;
+    left: 60px;
+}
+form {
+    position: relative;
+    bottom: 300px;
+    left: 60px;
+}
+.social-title {
+    position: relative;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    left: 60px;
+}
+.social_links {
+    position: relative;
+    left: 900px;
+    bottom: 550px;
+}
 footer {
     position: flex;
     text-align: center;
     font-size: 20px;
     padding: 30px;
+}
+.closing {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 8%;
 }
 /* footer begins================================================== */
 
