@@ -101,15 +101,12 @@ h1 {
     position: relative;
     top: 30px;
     text-align: justify;
+    padding-right: 30px;
 }
-/* skilla and tools section ================================================*/
+/* skilla and tools section begins ================================================*/
 .skills_container {
-    margin-bottom: 150px;
+    margin-bottom: 250px;
 }
-/* .sectionheader {
-    width: 100%;
-    text-align: center;
-} */
 .section_title {
     font-size: 30px;
 }
@@ -122,13 +119,23 @@ h1 {
 }
 .grid_item {
     padding: 20px;
-    font-size: 10px;
+    font-size: 30px;
     text-align: center;
 }
     /* images */
+/* .devicon-github-original {
+    font-size: 10px;
+} */
 .response_web {
-    width: 60px;
+    width: 200px;
+    position: relative;
+    bottom: 43px;
 }
+.sub_footer {
+    text-align: center;
+    margin-top: 90px;
+}
+/* skilla and tools section ends ================================================*/
 
 
 
