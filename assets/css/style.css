@@ -151,10 +151,9 @@ h4 {
 /* work section=================================================================== */
 .work_title {
     display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    right: 20px;
+    justify-content: end;
     margin-bottom: 20px;
+    margin-right: 60px;
 }
 h5 {
     font-size: 26px;
@@ -250,6 +249,49 @@ footer {
   @media screen and (max-width: 768px) {
     body{
       background-color: #bb8588;
+    }
+    .about_me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    . profile {
+        margin-bottom: 30px;
+    }
+    .sub_title {
+        display: flex;
+        justify-content: flex-start;
+        position: inherit;
+        left: 0;
+    }
+    .section_top {
+        display: flex;
+        justify-content: center;
+    }
+    .my_memoji {
+        width: 60%;
+        left: 60px;
+        top: -15px
+    }
+    .profilebkg {
+        width: 80%;
+        left: 30px;
+        bottom: 0;
+    }
+    .about_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid_container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
     }
   }
   
