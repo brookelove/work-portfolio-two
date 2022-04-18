@@ -281,3 +281,40 @@ footer {
     color: whitesmoke;
     padding: 30px;
 }
+/* media querries ================================================================ */
+/* Tablets */
+@media screen and (max-width: 992px) {
+    body {
+      background: #772014;
+      color: whitesmoke;
+    }
+    .my_memoji {
+        position: absolute;
+        width: 262px;
+        z-index: 10000;
+        left: 90px;
+    }
+    .profilebkg {
+        position: relative;
+        width: 400px;
+        left: 30px;
+    }
+  }
+  
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    body{
+      background-color: #bb8588;
+    }
+  }
+  
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+    body {
+      background-color: #8ac4ff;
+    }
+    header {
+        color: blue;
+
+    }
+  }
