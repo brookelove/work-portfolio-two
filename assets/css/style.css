@@ -16,14 +16,19 @@ body {
     background-color: var(--almostclear);
     color: var(--dark);
     font-family: 'Archivo', sans-serif;
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 a {
     color: var(--beauty);
 }
 button {
+    position: relative;
     color: whitesmoke;
     background: var(--dark);
+    font-size: 15px;
+    padding: 20px;
+    text-transform: uppercase;
 }
 
 /* header and navigation bar begins ==========================================*/
@@ -156,76 +161,99 @@ h1 {
 .work_container {
     display: flex;
 }
+h5 {
+    font-size: 30px;
+}
 .work_title {
     position: relative;
-    left: 1300px;
+    /* display: flex;
+    justify-content: end; */
+    left: 1225px;
     font-size: 40px;
 }
 /* desktops on the left */
-.desktop-R {
+.laptop-R {
     position: relative;
+    display: flex;
     width: 480px;
-    left: 800px;
+    left: 734px;
+    top: 80px;
 }
 .desktop-website-R {
     position: relative;
-    width: 450px;
-    left: 333px;
-    bottom: 230px;
-}
-/* buttons on the left */
-.button-left {
-    position: relative;
-    left: 80px;
-    bottom: 280px;
-    font-size: 15px;
-    padding: 20px;
-    text-transform: uppercase;
+    width: 310px;
+    left: 830px;
+    bottom: 188px;
+    height: 200px;
 }
 .text-left {
     position: relative;
-    bottom: 400px;
+    bottom: 350px;
     text-align: justify;
-    padding-left: 80px;
+    /* padding-left: 80px; */
     inline-size: 500px;
 }
-.project-title {
-    font-size: 30px;
+.project-title-L {
+    position: relative;
     margin-bottom: 2px;
+    /* top: 300px;
+    right: 388px; */
+}
+.project-info-L {
+    position: relative;
+    top: 200px;
 }
 /* laptop on the right */
 .laptop-L {
     position: relative;
     width: 570px;
-    bottom: 180px;
+    top: 375px;
+    right: 600px;
 }
 .laptop-website-L {
     position: relative;
-    height: 230px;
+    height: 234px;
     width: 370px;
-    bottom: 271px;
-    right: 460px;
+    top: 52px;
+    right: 486px;
+}
+.project-title-R {
+    position: relative;
+    margin-bottom: 2px;
+    top: 200px;
 }
 .text-right {
     position: relative;
-    bottom: 450px;
+    bottom: 308px;
     text-align: justify;
     inline-size: 500px;
-    left: 800px;
+    left: 200px;
+}
+.laptop-3 {
+    position: relative;
+    display: flex;
+    width: 480px;
+    right: 338px;
+    top: 1131px;
+}
+.button-left {
+    left: 80px;
+    bottom: 323px;
+
 }
 .button-right {
-    position: relative;
-    left: 900px;
-    bottom: 400px;
-    font-size: 15px;
-    padding: 20px;
-    text-transform: uppercase;
+    left: 400px;
+    bottom: 70px;
 }
 .weather-dashboard {
     position: relative;
-    width: 450px;
-    left: 333px;
-    bottom: 245px;
+    width: 307px;
+    right: 240px;
+    height: 198px;
+    top: 858px;
+}
+.button-3 {
+    right: 990px;
 }
 /* work section ends ================================================================== */
 /* footer begins================================================== */
@@ -234,19 +262,19 @@ h1 {
 }
 .contact_me {
     font-size: 40px;
-    bottom: 400px;
+    /* bottom: 400px; */
     left: 60px;
 }
 .reach_out {
     position: relative;
-    bottom: 390px;
+    /* bottom: 390px; */
     font-size: 20px;
     left: 60px;
 }
 .contact-subtext {
     position: relative;
     font-size: 15px;
-    bottom: 380px;
+    /* bottom: 380px; */
     left: 60px;
 }
 form {
