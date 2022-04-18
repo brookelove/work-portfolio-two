@@ -38,19 +38,22 @@ header {
     justify-content: space-between;
     margin-bottom: 150px;
     background-color: var(--lightbeauty);
+    overflow: hidden;
 }
 .nav__title {
     display: flex;
+    position: sticky;
 }
 .nav__list {
     display: flex;
     list-style-type: none;
 }
-.nav.sticky {
+.sticky {
     position: fixed;
-    right: 40px;
-    padding: 30px;
-    background-color: var(--lightbeauty);
+    /* right: 40px;
+    padding: 30px; */
+    top: 0;
+    width: 100%;
     z-index: 200;
     background-color: rgba(222, 184, 181, 0.7);
 }
