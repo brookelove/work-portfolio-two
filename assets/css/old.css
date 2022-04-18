@@ -18,6 +18,8 @@ body {
     font-family: 'Archivo', sans-serif;
     margin-left: 0;
     margin-right: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 a {
     color: var(--beauty);
@@ -315,6 +317,17 @@ footer {
     body {
       background: #772014;
       color: whitesmoke;
+    }
+    .my_memoji {
+        position: absolute;
+        width: 262px;
+        z-index: 10000;
+        left: 90px;
+    }
+    .profilebkg {
+        position: relative;
+        width: 400px;
+        left: 30px;
     }
   }
   

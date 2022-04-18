@@ -2,8 +2,8 @@ console.log("I am linked");
 // HTML elements 
 var navbar = document.getElementById("navbar");
 var nav__list = document.getElementById("header");
-var sections = documnet.querySelectorAll("section[id]");
-
+var sections = document.querySelectorAll("section");
+var list = document.querySelectorAll(".links");
 // var nav__title = document.getElementById("nav__title");
 
 // Sticky element
@@ -16,20 +16,12 @@ window.onscroll = function (){
     }
 }
 // scroll on navigation 
-    // add event listenter to listen for the scroll 
-window.addEventListener('scroll', navnotice);
-function navnotice {
-    var scrollY = window.pageYOffset;
-    sections.forEach(current => {
-        var sectionheight = current.offsetHeight
+// function activemenu () {
+//     var len = section.length;
+//     while( - - len && window.scrollY + 97 < section[len].offsetTop){}
+//     list.forEach (ltx.classList.remove("active"));
+//     li[len].classList.add("active");
+// }
+// activemenu();
+// window.addEventListener("scroll", activemenu);
 
-        var sectiontop = (current.getBoundingClientRect().top + window.pageYOffset) - 50;
-        sectionID = current.getAttribute("id")
-        if ( 
-            scrollY > sectiontop && scrollY <= sectiontop + sectionheight
-        ) {
-            document.querySelector(".nav a[href*=" + sectionID )
-        }
-
-    })
-}

@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --almostclear: #C7D1DB; /*rgb(199, 209, 219)*/
+    --medbeauty: #AD7877;
+    --lightbeauty: #DEB8B5; /* rgb(222, 184, 181)*/
+    --beauty: #E96A67; /*rgb(233, 106, 103)*/
+    --text: #5A483F;
+    --dark: #2D2D2E;
+    --background: #e6d9cc; /* rgb(188, 180, 172)*/
+}
+body {
+    background-color: var(--almostclear);
+    color: var(--dark);
+    font-family: 'Archivo', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+button {
+    position: relative;
+    color: whitesmoke;
+    background: var(--dark);
+    font-size: 15px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+/* header and navigation bar begins ==========================================*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    background-color: var(--lightbeauty);
+}
+.nav__title {
+    display: flex;
+}
+.nav__list {
+    display: flex;
+    list-style-type: none;
+}
+a {
+    color: var(--beauty);
+    margin: 15px;
+    padding: 0 15px;
+    font-size: 18px;
+}
+/* header and navigation bar ends ==========================================*/
+/* intor begins=============================================================== */
+.intro {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+/* intro begins=============================================================== */
+/* about me continer begins=============================================================== */
+h4 {
+    font-size: 40px;
+}
+.aboutme_container {
+    display: flex;
+    margin-bottom: 200px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width:50%;
+}
+/* my memoji and background profile photo starts */
+.sub_title {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    left: 20px;
+}
+.profile {
+    position: relative;
+    top: 20px;
+}
+.my_memoji {
+    position: absolute;
+    width: 362px;
+    z-index: 10000;
+    left: 40px;
+}
+.profilebkg {
+    position: relative;
+    width: 500px;
+    left: -20px;
+    bottom: -29px;
+}
+ /* my memoji and background profile photo ends */
+/* skilla and tools section begins ================================================*/
+.skills_container {
+    margin-bottom: 50px;
+    background: var(--medbeauty);
+    padding: 60px;
+}
+.section_title {
+    font-size: 30px;
+}
+/* icon start======================== */
+/* grid setup */
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+}
+.grid_item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.response_web {
+    width: 200px;
+    position: relative;
+    bottom: 43px;
+}
+.sub_footer {
+    text-align: center;
+    margin-top: 90px;
+}
+/* skilla and tools section ends ================================================*/
