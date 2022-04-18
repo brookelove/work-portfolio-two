@@ -253,7 +253,8 @@ h5 {
     top: 858px;
 }
 .button-3 {
-    right: 990px;
+    right: 1021px;
+    top: 749px;
 }
 /* work section ends ================================================================== */
 /* footer begins================================================== */
@@ -262,24 +263,24 @@ h5 {
 }
 .contact_me {
     font-size: 40px;
-    /* bottom: 400px; */
+     bottom: 192px;
     left: 60px;
 }
 .reach_out {
     position: relative;
-    /* bottom: 390px; */
+    bottom: 193px;
     font-size: 20px;
-    left: 60px;
+    left: 63px;
 }
 .contact-subtext {
     position: relative;
     font-size: 15px;
-    /* bottom: 380px; */
-    left: 60px;
+     bottom: 189px;
+    left: 64px;
 }
 form {
     position: relative;
-    bottom: 300px;
+    bottom: 168px;
     left: 60px;
 }
 .social-title {
@@ -291,7 +292,7 @@ form {
 .social_links {
     position: relative;
     left: 900px;
-    bottom: 550px;
+    bottom: 429px;
 }
 footer {
     position: flex;
