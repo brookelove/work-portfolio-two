@@ -17,3 +17,5 @@ I would definately apply more javascript, make the page scroll down to the secti
 # Mock Up
 
 ![Screen_Recording_2022-04-18_at_7_47_43_PM_AdobeCreativeCloudExpress](https://user-images.githubusercontent.com/98351351/163912319-25c8ff8d-0b46-42d5-9d3e-285b76bc4a4a.gif)
+# Inspiration 
+I wanted to inlclude where I got the idea of th eoverall page layout. This Front-End Coder has amazing work and her pages are beuitifully designed. I have included a link to her portfolio here https://anniebombanie.com/#home
