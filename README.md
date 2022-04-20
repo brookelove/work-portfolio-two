@@ -5,7 +5,7 @@ I wanted to recreate my portfolio because four weeks ago I did not even know wha
 
 # What I learned 
 
- During the implementation of this application, I lerned alot about how I knew more than I thought I would. It was an interesting realization. I restarted this project from scratch which made me understand what I felt comfortable with and didn't. I learned more about flexboxs and their usefullness. 
+ During the implementation of this application, I learned alot about how I knew more than I thought I would. It was an interesting realization. I restarted this project from scratch which made me understand what I felt comfortable with and didn't. I learned more about flexboxs and their usefullness. 
  
 # Technology Used 
  - HTML 
