@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Brooke Love: Full-Stack Developer</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,23 +14,37 @@
     </head>
     <body>
         <header id="header">
-            <a class = "nav__title" id= "nav__title" href="#home">Brooke Love</a>
-            <nav class="nav" id="nav">
-                <ul class="nav__list" id="nav__list">
-                    <li class="links" style="display: contents;"><a href="#about">about</a></li>
-                    <br>
-                    <li class="links" style="display: contents;"><a href="#skills&tools">Skills & Tools</a></li>
-                    <br>
-                    <li class="links" style="display: contents;"><a href="#work">work</a></li>
-                    <br>
-                    <li class="links" style="display: contents;"><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" id= "nav__title" href="#home">Brooke Love</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><img src="./assets/images/menu-button-of-three-horizontal-lines.png" alt="hamburger navbar" style="width: 20px;"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#skills&tools">Skills & Tools</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#skills&tools">Skills & Tools</a>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: grey;">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
         <!-- <section class="banner"></section> -->
         <div class="intro">
             <section class="intro" id="home">
-            <h1>Hi I'm Brooke! I am a Full-Stack Developer!</h1>
+            <h1 class="mt-5">Hi I'm Brooke! I am a Full-Stack Developer!</h1>
             </section>
         </div>
         <div class="aboutme_container row">
@@ -124,6 +139,7 @@
             <section class="work" style="margin-bottom: 150px;">
             <div class="work_container">
                 <h4 class="work_title" id="work">Work</h4>
+                <!-- film sage -->
             <div class="project_1" style="margin-left: 50px;">
                     <img src="./assets/images/filmsagew:comput.png" alt="Film sage website" class="laptop-img-1">
             <div class="text-1">
@@ -135,6 +151,7 @@
                     <a href="https://github.com/brookelove/movie-mood" target="_blank"><button>My Repo</button></a>
                 </div>
             </div>
+            <!-- disney princess code quiz -->
             <div class="project_1">
                     <img src="./assets/images/code quiz.png" alt="Disney Princess Quiz" class="laptop-img-1">
             <div class="text-1">
@@ -146,6 +163,7 @@
                     <a href="https://github.com/brookelove/disney-pricesses-code-quiz" target="_blank"><button class="button-2">My Repo</button></a>
             </div>
             </div>
+            <!-- weather dashboard -->
             <div class="project_1">
                     <img src="./assets/images/weather dashboard .png" alt="Film sage website" class="laptop-img-1">
                     <div class="text-1">
@@ -157,6 +175,18 @@
                 <a href="https://github.com/brookelove/5-day-weather-app" target="_blank"><button class="button-3">My Repo</button></a>
             </div>
             </div>
+            <!-- project 2 -->
+            <div class="project_1">
+                <img src="./assets/images/booklastic.png alt="Film sage website" class="laptop-img-1">
+                <div class="text-1">
+                    <h5 class="project-title-3"><strong>Booklastic</strong></h5>
+                    <p class="project-info-3">An app where bookings can bond over their favorite books from people around the world!</p>
+        </div>
+        <div class="button-1">
+            <a href="https://fathomless-bastion-58602.herokuapp.com/" target = "_blank"><button class="button-3">See my Website</button></a>
+            <a href="https://github.com/brookelove/booklastic-blog-place" target="_blank"><button class="button-3">My Repo</button></a>
+        </div>
+        </div>
         </div>
             </section>
         <div class="footer_container">
@@ -197,6 +227,7 @@
             <footer>
                 <p><strong> 🌺  2022 Designed with ❣️ by Brooke Love 🌺 </strong></p>
             </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
         <script src="./assets/js/script.js"></script>
     </body>
 </html>
